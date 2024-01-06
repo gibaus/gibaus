@@ -27,3 +27,15 @@ jobs:
 
     - name: Run Python script
       run: python main.py  # Mettez le chemin correct vers votre script Python ici
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: gibaus
+        author_email: gibaus@gmail.com
+        force: false
+        signoff: false
+        message: ':memo: README.md updated by Gibot'
+      env:
+        # This is necessary in order to push a commit to the repo
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
