@@ -33,7 +33,7 @@ jobs:
       with:
         author_name: gibaus
         author_email: gibaus@gmail.com
-        force: false
+        force: true
         signoff: false
         message: ':memo: README.md updated by Gibot'
       env:
