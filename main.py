@@ -22,7 +22,7 @@ def getGibotSigning():
   return signature
   
 # variable du fichier Markdown
-nom_fichier_md = "readme.md"
+nom_fichier_md = "README.md"
 resultat = getGibotSigning()
 date_md = obtenir_date_du_jour()
 contenu_md = """
