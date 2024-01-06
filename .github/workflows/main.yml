@@ -26,7 +26,7 @@ jobs:
         python-version: 3.x
 
     - name: Run Python script
-      run: python ./main.py  # Mettez le chemin correct vers votre script Python ici
+      run: python main.py  # Mettez le chemin correct vers votre script Python ici
 
       - name: commit changes
         uses: EndBug/add-and-commit@v4
