@@ -27,3 +27,11 @@ jobs:
 
     - name: Run Python script
       run: python ./main.py  # Mettez le chemin correct vers votre script Python ici
+
+    - name: Commit results
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add .
+        git commit -m "Update Readme"
+        git push
