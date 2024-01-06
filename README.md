@@ -1,15 +1,14 @@
-### Hi there 👋
 
-I create application on the web 
+Hi there 👋
 
-And... I create online courses in french to help developers to master modern web technologies.
+in professional reskilling
 
-### Contact me
+I am looking for new skills to increase my knowledge
 
-Added the `Mon 3 Jan 2022`
+open to all who can increase my learning abilities
 
-Last update on Fri Jan 06 2024
+added on 3 Jan 2024
 
-**361 day before 2025 ⏱** days before new years
+update on 2024-01-06
 
-🤖 This README.md is updated with horror, by Gabot ❤️
+🤖 This README.md is updated with wickedness, by Gibot ❤️
