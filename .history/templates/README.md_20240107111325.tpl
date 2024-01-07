@@ -1,5 +1,4 @@
 ![header](images/header.jpg)
-
 ### Hi there 👋
 
 #### 👷 Check out what I'm currently working on
@@ -9,6 +8,11 @@
 
 #### 🌱 My latest projects
 {{range recentRepos 10}}
+- [{{.Name}}]({{.URL}}) - {{.Description}}
+{{- end}}
+
+#### 🍴 My recent forks
+{{range recentForks 10}}
 - [{{.Name}}]({{.URL}}) - {{.Description}}
 {{- end}}
 
