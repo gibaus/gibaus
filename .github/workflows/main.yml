@@ -4,8 +4,8 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    # Exécute tous les jours à minuit UTC
-    - cron: '0 0 * * *'
+    # Exécute tous les jours à 1h UTC
+    - cron: '0 1 * * *'
 
 jobs:
   run_script:
