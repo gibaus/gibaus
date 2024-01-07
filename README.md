@@ -9,6 +9,6 @@ open to all who can increase my learning abilities
 
 added on 3 Jan 2024
 
-update on 2024-01-06
+update on 2024-01-07
 
-🤖 This README.md is updated with love, by Gibot ❤️
+🤖 This README.md is updated with horror, by Gibot ❤️
