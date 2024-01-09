@@ -11,4 +11,4 @@ added on 3 Jan 2024
 
 update on 2024-01-09
 
-🤖 This README.md is updated with pleasure, by Gibot ❤️
+🤖 This README.md is updated with hate, by Gibot ❤️
