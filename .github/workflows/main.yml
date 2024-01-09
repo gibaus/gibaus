@@ -38,4 +38,4 @@ jobs:
         message: ':memo: README.md updated by Gibot'
       env:
         # This is necessary in order to push a commit to the repo
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKENH_TOKEN }}
