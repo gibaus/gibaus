@@ -1,11 +1,13 @@
-name: Update README all day at 00:00
+name: Update README twice daily
 
 on:
   push:
   workflow_dispatch:
   schedule:
-    # Exécute tous les jours à 1h UTC
-    - cron: '0 1 * * *'
+    # Exécute tous les jours à 8h et 20h UTC
+    - cron: "0 8,20 * * *"
+      description: "Tâche quotidienne matinale et en soirée"
+      command: "commande_a_executer"    
 
 jobs:
   run_script:
