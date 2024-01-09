@@ -2,7 +2,7 @@ import random
 from datetime import datetime
 
 def obtenir_date_du_jour():
-    date_du_jour = datetime.today().strftime('%Y-%m-%d')
+    date_du_jour = datetime.today().strftime('%d-%m-%Y')
     return date_du_jour
 
 def getGibotSigning():
