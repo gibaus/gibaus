@@ -11,4 +11,4 @@ added on 3 Jan 2024
 
 update on 2024-01-09
 
-🤖 This README.md is updated with horror, by Gibot ❤️
+🤖 This README.md is updated with wickedness, by Gibot ❤️
