@@ -1,6 +1,28 @@
 import random
 from datetime import datetime
 
+def jours_restants_jusqu_a_anniversaire():
+    # Obtenir la date actuelle
+    date_actuelle = datetime.now()
+
+    # Définir la date de l'anniversaire
+    anniversaire = datetime(date_actuelle.year, 5, 20)
+
+    # Vérifier si l'anniversaire est déjà passé cette année, sinon, ajuster pour l'année suivante
+    if date_actuelle > anniversaire:
+        anniversaire = datetime(date_actuelle.year + 1, 5, 20)
+
+    # Calculer les jours restants
+    jours_restants = (anniversaire - date_actuelle).days
+
+    # Utiliser la fonction
+    if jours_restants == 0:
+        message_anniversaire = "❤️❤️❤️  C'est mon anniversaire. ❤️❤️❤️"
+    else:
+        message_anniversaire = f"❤️❤️❤️  There are {jours_restants} days left until your birthday. ❤️❤️❤️"
+
+    return message_anniversaire
+
 def obtenir_date_du_jour():
     date_du_jour = datetime.today().strftime('%d-%m-%Y')
     return date_du_jour
@@ -20,6 +42,9 @@ def getGibotSigning():
   # Utiliser le mot choisi dans la chaîne de formatage
   signature = f'🤖 This README.md is updated with {mot_choisi}, by Gibot ❤️'
   return signature
+
+anniv = jours_restants_jusqu_a_anniversaire()
+print(anniv)
   
 # variable du fichier Markdown
 nom_fichier_md = "README.md"
@@ -54,6 +79,7 @@ update on """
 with open(nom_fichier_md, "w", encoding="utf-8") as fichier_md:
     fichier_md.write(contenu_md)
     fichier_md.write(date_md + "\n\n")
+    fichier_md.write(anniv + "\n\n")
     fichier_md.write(resultat)
-
+    
 print(f"Le fichier {nom_fichier_md} a été créé avec succès.")

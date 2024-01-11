@@ -1,5 +1,17 @@
 
-Hi there 👋
+About me - Hi there 👋
+Why you'd want to hang out with me
+
+My name is The gibaus. I have the following qualities:
+
+    I rock a great beard
+    I’m extremely loyal to my friends
+    I like gaming and movies
+
+That rug really tied the room together.
+my history
+
+To be honest, I’m having some trouble remembering right now, so why don’t you just watch my movie and it will answer all your questions
 
 in professional reskilling
 
@@ -9,6 +21,8 @@ open to all who can increase my learning abilities
 
 added on 3 Jan 2024
 
-update on 10-01-2024
+update on 11-01-2024
+
+❤️❤️❤️  Il reste 129 jours jusqu'à votre anniversaire. ❤️❤️❤️
 
 🤖 This README.md is updated with wickedness, by Gibot ❤️
