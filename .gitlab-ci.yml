@@ -1,10 +1,7 @@
 stages:
-  - run_script
+  - run scripts
 
-run_script:
-  stage: run_script
+test_job:
+  stage: run scripts
   script:
-    - python3 main.py # Rediriger la sortie vers un fichier
-
-schedule:
-  - cron: "0 */6 * * *"  # Planification toutes les 6 heures (vous pouvez ajuster cela selon vos besoins)
+    - python main.py
