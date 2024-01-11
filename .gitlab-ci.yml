@@ -4,4 +4,4 @@ stages:
 test_job:
   stage: run scripts
   script:
-    - python main.py
+    - python3 main.py
