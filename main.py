@@ -1,5 +1,15 @@
 import random
+import os
 from datetime import datetime
+
+# Nom du fichier Markdown
+md_file_name = "README.md"
+
+# Supprimer le fichier README.md s'il existe déjà
+if os.path.exists(md_file_name):
+    os.remove(md_file_name)
+    print(f"The file {md_file_name} has been successfully deleted.")
+    
 
 def days_until_birthday():
     # Get the current date
