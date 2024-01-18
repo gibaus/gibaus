@@ -2,7 +2,7 @@
 About me - Hi there 👋
 Why you'd want to hang out with me
 
-My name is The Gibaus. I have the following qualities:
+My name is The GIBAUS. I have the following qualities:
 
     I rock a great beard
     I’m extremely loyal to my friends
@@ -25,4 +25,4 @@ update on 18-01-2024
 
 ❤️❤️❤️  There are 122 days left until my birthday. ❤️❤️❤️
 
-🤖 This README.md is updated with cruelty, by Gibot ❤️
+🤖 This README.md is updated with love, by Gibot ❤️

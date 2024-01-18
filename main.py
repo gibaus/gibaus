@@ -2,10 +2,10 @@ import random
 import os
 from datetime import datetime
 
-# Nom du fichier Markdown
+# Nom du readme Markdown
 md_file_name = "README.md"
 
-# Supprimer le fichier README.md s'il existe déjà
+# rm le fichier README.md s'il existe déjà
 if os.path.exists(md_file_name):
     os.remove(md_file_name)
     print(f"The file {md_file_name} has been successfully deleted.")
@@ -60,7 +60,7 @@ md_content = f"""
 About me - Hi there 👋
 Why you'd want to hang out with me
 
-My name is The Gibaus. I have the following qualities:
+My name is The GIBAUS. I have the following qualities:
 
     I rock a great beard
     I’m extremely loyal to my friends
