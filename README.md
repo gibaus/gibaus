@@ -21,8 +21,8 @@ open to all who can increase my learning abilities
 
 added on 3 Jan 2024
 
-update on 03-02-2024
+update on 04-02-2024
 
-❤️❤️❤️  There are 106 days left until my birthday. ❤️❤️❤️
+❤️❤️❤️  There are 105 days left until my birthday. ❤️❤️❤️
 
-🤖 This README.md is updated with hate, by Gibot ❤️
+🤖 This README.md is updated with cruelty, by Gibot ❤️
