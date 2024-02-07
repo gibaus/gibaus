@@ -25,4 +25,4 @@ update on 07-02-2024
 
 ❤️❤️❤️  There are 102 days left until my birthday. ❤️❤️❤️
 
-🤖 This README.md is updated with wickedness, by Gibot ❤️
+🤖 This README.md is updated with love, by Gibot ❤️
