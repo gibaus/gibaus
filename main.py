@@ -2,92 +2,93 @@ import random
 import os
 from datetime import datetime
 
-# Nom du readme Markdown
+# Nom du fichier README.md
 md_file_name = "README.md"
 
-# rm le fichier README.md s'il existe déjà
-if os.path.exists(md_file_name):
-    os.remove(md_file_name)
-    print(f"The file {md_file_name} has been successfully deleted.")
-    
+# Supprimer le fichier README.md s'il existe déjà
+try:
+    if os.path.exists(md_file_name):
+        os.remove(md_file_name)
+        print(f"Le fichier {md_file_name} a été supprimé avec succès.")
+except Exception as e:
+    print(f"Erreur lors de la suppression du fichier {md_file_name}: {e}")
 
 def days_until_birthday():
-    # Get the current date
+    """Retourne un message indiquant le nombre de jours restants avant l'anniversaire."""
     current_date = datetime.now()
-
-    # Set the birthday date
     birthday = datetime(current_date.year, 5, 20)
 
-    # Check if the birthday has already passed this year, otherwise adjust for the next year
+    # Si l'anniversaire est déjà passé cette année, on le calcule pour l'année prochaine
     if current_date > birthday:
         birthday = datetime(current_date.year + 1, 5, 20)
 
-    # Calculate the days remaining
+    # Calcul des jours restants
     days_remaining = (birthday - current_date).days
 
-    # Use the function
+    # Message en fonction de l'anniversaire
     if days_remaining == 0:
-        birthday_message = "❤️❤️❤️  It's my birthday! ❤️❤️❤️"
+        birthday_message = "❤️❤️❤️  C'est mon anniversaire aujourd'hui ! ❤️❤️❤️"
     else:
-        birthday_message = f"❤️❤️❤️  There are {days_remaining} days left until my birthday. ❤️❤️❤️"
+        birthday_message = f"❤️❤️❤️  Il reste {days_remaining} jours avant mon anniversaire. ❤️❤️❤️"
 
     return birthday_message
 
 def get_gibot_signing():
+    """Retourne une signature aléatoire à partir d'une liste de mots."""
     word_list = [
-        'hate',
-        'wickedness',
-        'pleasure',
-        'wickedness',
-        'cruelty',
-        'horror',
-        'love'
+        'haine',
+        'méchanceté',
+        'plaisir',
+        'cruauté',
+        'horreur',
+        'amour'
     ]
-    # Choose a random word
+    # Choisir un mot aléatoire
     chosen_word = random.choice(word_list)
-    # Use the chosen word in the formatting string
-    signature = f'🤖 This README.md is updated with {chosen_word}, by Gibot ❤️'
+    signature = f'🤖 Ce README.md est mis à jour avec {chosen_word}, par Gibot ❤️'
     return signature
 
+# Calculer le message d'anniversaire
 birthday_message = days_until_birthday()
 print(birthday_message)
 
-# Markdown file variables
-md_file_name = "README.md"
+# Variables pour le fichier Markdown
 signature_result = get_gibot_signing()
 md_date = datetime.today().strftime('%d-%m-%Y')
 md_content = f"""
-About me - Hi there 👋
-Why you'd want to hang out with me
+À propos de moi - Salut 👋
+Pourquoi vous voudriez passer du temps avec moi
 
-My name is The GIBAUS. I have the following qualities:
+Je m'appelle The GIBAUS. Voici mes qualités :
 
-    I rock a great beard
-    I’m extremely loyal to my friends
-    I like gaming and movies
+    J'ai une super barbe
+    Je suis extrêmement loyal envers mes amis
+    J'aime les jeux vidéo et les films
 
-That rug really tied the room together.
-my history
+Ce tapis a vraiment bien harmonisé la pièce.
+Mon histoire
 
-To be honest, I’m having some trouble remembering right now, so why don’t you just watch my movie, and it will answer all your questions.
+Pour être honnête, j'ai un peu de mal à m'en souvenir en ce moment, alors pourquoi ne pas regarder mon film et il répondra à toutes vos questions.
 
-in professional reskilling
+Dans la reconversion professionnelle
 
-I am looking for new skills to increase my knowledge
+Je cherche de nouvelles compétences pour augmenter mes connaissances
 
-open to all who can increase my learning abilities
+Ouvert à tous ceux qui peuvent accroître mes capacités d'apprentissage
 
-added on 3 Jan 2024
+Ajouté le 3 janvier 2024
 
-update on {md_date}
+Mise à jour du {md_date}
 
 {birthday_message}
 
 {signature_result}
 """
 
-# Writing the Markdown file
-with open(md_file_name, "w", encoding="utf-8") as md_file:
-    md_file.write(md_content)
-
-print(f"The file {md_file_name} has been successfully created.")
+# Écrire dans le fichier Markdown
+try:
+    with open(md_file_name, "w", encoding="utf-8") as md_file:
+        md_file.write(md_content)
+    print(f"Le fichier {md_file_name} a été créé avec succès.")
+except Exception as e:
+    print(f"Erreur lors de la création du fichier {md_file_name}: {e}")
