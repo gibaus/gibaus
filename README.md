@@ -1,28 +1,28 @@
 
-About me - Hi there 👋
-Why you'd want to hang out with me
+À propos de moi - Salut 👋
+Pourquoi vous voudriez passer du temps avec moi
 
-My name is The GIBAUS. I have the following qualities:
+Je m'appelle The GIBAUS. Voici mes qualités :
 
-    I rock a great beard
-    I’m extremely loyal to my friends
-    I like gaming and movies
+    J'ai une super barbe
+    Je suis extrêmement loyal envers mes amis
+    J'aime les jeux vidéo et les films
 
-That rug really tied the room together.
-my history
+Ce tapis a vraiment bien harmonisé la pièce.
+Mon histoire
 
-To be honest, I’m having some trouble remembering right now, so why don’t you just watch my movie, and it will answer all your questions.
+Pour être honnête, j'ai un peu de mal à m'en souvenir en ce moment, alors pourquoi ne pas regarder mon film et il répondra à toutes vos questions.
 
-in professional reskilling
+Dans la reconversion professionnelle
 
-I am looking for new skills to increase my knowledge
+Je cherche de nouvelles compétences pour augmenter mes connaissances
 
-open to all who can increase my learning abilities
+Ouvert à tous ceux qui peuvent accroître mes capacités d'apprentissage
 
-added on 3 Jan 2024
+Ajouté le 3 janvier 2024
 
-update on 10-02-2024
+Mise à jour du 18-02-2025
 
-❤️❤️❤️  There are 99 days left until my birthday. ❤️❤️❤️
+❤️❤️❤️  Il reste 90 jours avant mon anniversaire. ❤️❤️❤️
 
-🤖 This README.md is updated with horror, by Gibot ❤️
+🤖 Ce README.md est mis à jour avec horreur, par Gibot ❤️
